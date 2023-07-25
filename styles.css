@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 .question-area {
-    width: 90vw;
+    width: 70vw;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,8 @@ h1 {
     background-color: #fadede;
 }
 .question-card {
-    margin: 20px;
+    width: 60vw;
+    margin: 20px 0;
     padding: 20px;
     position: relative;
     border-radius: 10px;
