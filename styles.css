@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fceded;
+    background-color: #ffcccc;
 }
 main {
     margin-top: 5%;
@@ -14,12 +15,31 @@ main {
 h1 {
     text-align: center;
 }
-#question-area {
-    width: 75vw;
-    margin: 20px;
-    padding: 30px;
+.question-area {
+    width: 90vw;
     border-radius: 10px;
-    background-color: #e9eff4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fadede;
+}
+.question-card {
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffcccc;
+    background-color: #fceded;
+}
+.show-icon,
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.answer {
+    margin: 0 20px;
 }
 .hidden {
     visibility: hidden;
