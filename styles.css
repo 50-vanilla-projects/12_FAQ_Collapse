@@ -14,3 +14,6 @@ main {
 h1 {
     text-align: center;
 }
+.hidden {
+    visibility: hidden;
+}
