@@ -4,7 +4,6 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fceded;
     background-color: #ffcccc;
@@ -19,12 +18,9 @@ h1 {
     text-align: center;
 }
 .question-area {
-    width: 70vw;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fadede;
 }
 .question-card {
     width: 60vw;
