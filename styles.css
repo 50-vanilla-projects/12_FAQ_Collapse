@@ -30,9 +30,14 @@ button {
     margin: 20px auto;
     padding: 20px 60px 20px 20px;
     position: relative;
+    background-color: transparent;
+    border: 1pt solid #a28383;
     border-radius: 8px;
-    background-color: #fceded;
+    box-shadow: 3px 2px 3px #deb1b1;
     overflow: hidden;
+    transition: 0.5s ease;
+}
+    background-color: #fceded;
 }
 .question-card::before,
 .question-card::after {
