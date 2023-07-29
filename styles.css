@@ -12,6 +12,9 @@ main {
 h1 {
     text-align: center;
 }
+h2 {
+    margin-block-start: 0;
+}
 button {
     position: absolute;
     top: 20px;
@@ -48,13 +51,7 @@ button {
     left: -30px;
     transform: rotateY(180deg);
 }
-.show-icon,
-.close-icon {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-}
+
 .answer {
     margin: 0 20px;
 }
