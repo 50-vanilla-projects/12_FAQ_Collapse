@@ -39,8 +39,13 @@ button {
 }
     background-color: #fceded;
 }
-.question-card::before,
-.question-card::after {
+.question-card .show-icon {
+    display: block;
+}
+.question-card .close-icon,
+.question-card .answer {
+    display: none;
+}
     content: "\f075";
     font-family: "Font Awesome 5 Free";
     font-size: 7rem;
