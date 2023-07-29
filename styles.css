@@ -30,7 +30,7 @@ button {
     margin: 20px auto;
     padding: 20px 60px 20px 20px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #fceded;
     overflow: hidden;
 }
