@@ -56,5 +56,5 @@ button {
     margin: 0 20px;
 }
 .hidden {
-    visibility: hidden;
+    display: none;
 }
