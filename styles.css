@@ -37,6 +37,7 @@ button {
     overflow: hidden;
     transition: 0.5s ease;
 }
+.question-card.active {
     background-color: #fceded;
 }
 .question-card .show-icon {
@@ -45,6 +46,13 @@ button {
 .question-card .close-icon,
 .question-card .answer {
     display: none;
+}
+.question-card.active .show-icon {
+    display: none;
+}
+.question-card.active .close-icon,
+.question-card.active .answer {
+    display: block;
 }
 .question-card.active::before,
 .question-card.active::after {
@@ -65,7 +73,4 @@ button {
 }
 .answer {
     margin: 0 20px;
-}
-.hidden {
-    display: none;
 }
