@@ -13,6 +13,7 @@ h1 {
     text-align: center;
 }
 h2 {
+    font-size: 1.3rem;
     margin-block-start: 0;
 }
 button {
@@ -21,7 +22,7 @@ button {
     right: 20px;
     border: none;
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
 }
 .question-card {
