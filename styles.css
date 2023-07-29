@@ -30,6 +30,24 @@ h1 {
     border-radius: 10px;
     background-color: #ffcccc;
     background-color: #fceded;
+    overflow: hidden;
+}
+.question-card::before,
+.question-card::after {
+    content: "\f075";
+    font-family: "Font Awesome 5 Free";
+    font-size: 7rem;
+    opacity: 0.2;
+    color:#074dff;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+}
+.question-card::after {
+    color:#98ff07;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
 }
 .show-icon,
 .close-icon {
