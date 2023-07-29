@@ -30,12 +30,32 @@ button {
     margin: 20px auto;
     padding: 20px 60px 20px 20px;
     position: relative;
-    border-radius: 10px;
-    background-color: #fceded;
+    background-color: transparent;
+    border: 1pt solid #a28383;
+    border-radius: 8px;
+    box-shadow: 3px 2px 3px #deb1b1;
     overflow: hidden;
+    transition: 0.5s ease;
 }
-.question-card::before,
-.question-card::after {
+.question-card.active {
+    background-color: #fceded;
+}
+.question-card .show-icon {
+    display: block;
+}
+.question-card .close-icon,
+.question-card .answer {
+    display: none;
+}
+.question-card.active .show-icon {
+    display: none;
+}
+.question-card.active .close-icon,
+.question-card.active .answer {
+    display: block;
+}
+.question-card.active::before,
+.question-card.active::after {
     content: "\f075";
     font-family: "Font Awesome 5 Free";
     font-size: 7rem;
@@ -45,16 +65,12 @@ button {
     top: 20px;
     left: 20px;
 }
-.question-card::after {
+.question-card.active::after {
     color:#98ff07;
     top: -10px;
     left: -30px;
     transform: rotateY(180deg);
 }
-
 .answer {
     margin: 0 20px;
-}
-.hidden {
-    display: none;
 }
