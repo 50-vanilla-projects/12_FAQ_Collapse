@@ -46,6 +46,8 @@ button {
 .question-card .answer {
     display: none;
 }
+.question-card.active::before,
+.question-card.active::after {
     content: "\f075";
     font-family: "Font Awesome 5 Free";
     font-size: 7rem;
@@ -55,13 +57,12 @@ button {
     top: 20px;
     left: 20px;
 }
-.question-card::after {
+.question-card.active::after {
     color:#98ff07;
     top: -10px;
     left: -30px;
     transform: rotateY(180deg);
 }
-
 .answer {
     margin: 0 20px;
 }
